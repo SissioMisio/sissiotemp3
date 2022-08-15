@@ -7,7 +7,10 @@
 	font-weight: bold;
 }
 
-
+@keyframes shine {
+	from { -webkit-mask-position: 150%; }
+	to { -webkit-mask-position: -50%; }
+}
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg::before {
 	content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark or https://github.com/SyndiShanX/Discord-Dark";
