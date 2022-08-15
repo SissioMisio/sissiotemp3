@@ -6,7 +6,10 @@
 	animation: shine 2s linear infinite;
 	font-weight: bold;
 }
-
+@keyframes shine {
+	from { -webkit-mask-position: 150%; }
+	to { -webkit-mask-position: -50%; }
+}
 
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg::before {
